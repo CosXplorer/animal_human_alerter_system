@@ -1,5 +1,5 @@
 # Optimized for Fast Motion Detection
-stream_url: "http://10.81.57.57:8080/video"
+stream_url: "xxxx"
 confidence_threshold: 0.3        # Lower threshold for brief appearances
 alert_cooldown_seconds: 30
 
@@ -17,8 +17,8 @@ window_name: "Animal-Human Detection"
 
 telegram:
   enabled: true
-  token: "7949616456:AAE0XyGEc7ZuajAeKqQMILCau-jHqkOlbR0"
-  chat_id: "626695105"
+  token: ""
+  chat_id: ""
   send_photos: true
 
 # Motion detection settings
@@ -33,4 +33,5 @@ face_confidence_threshold: 0.7
 tracking:
   track_individuals: true
   track_history_length: 30
+
   cooldown_per_track: 60  
