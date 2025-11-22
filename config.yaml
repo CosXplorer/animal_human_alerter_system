@@ -1,0 +1,36 @@
+# Optimized for Fast Motion Detection
+stream_url: "http://10.81.57.57:8080/video"
+confidence_threshold: 0.3        # Lower threshold for brief appearances
+alert_cooldown_seconds: 30
+
+# Performance settings for fast motion
+frame_skip: 1                    
+detection_interval: 0.05         
+use_cuda: false
+
+# Camera stream optimization
+camera_fps: 30                   
+
+# Display settings
+display_live_feed: true
+window_name: "Animal-Human Detection"
+
+telegram:
+  enabled: true
+  token: "7949616456:AAE0XyGEc7ZuajAeKqQMILCau-jHqkOlbR0"
+  chat_id: "626695105"
+  send_photos: true
+
+# Motion detection settings
+motion_threshold: 25      
+min_motion_area: 500      
+motion_buffer_size: 10    
+
+# Face detection settings
+face_confidence_threshold: 0.7  
+
+# Add these to your config.yaml
+tracking:
+  track_individuals: true
+  track_history_length: 30
+  cooldown_per_track: 60  
