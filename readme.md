@@ -57,7 +57,7 @@ numpy>=1.24.0
 
 #### Option A: Using config.yaml (recommended for testing)
 ```yaml
-stream_url: "http://10.81.57.57:8080/video"  # Your camera stream URL
+stream_url: "xxxx"  # Your camera stream URL
 confidence_threshold: 0.3
 alert_cooldown_seconds: 60
 use_cuda: false  # Set to true if you have NVIDIA GPU
@@ -75,7 +75,7 @@ telegram:
 #### Option B: Using .env file (recommended for production)
 Create a `.env` file in the project directory:
 ```bash
-STREAM_URL=http://10.81.57.57:8080/video
+STREAM_URL=xxxx
 CONFIDENCE_THRESHOLD=0.3
 ALERT_COOLDOWN_SECONDS=60
 TELEGRAM_TOKEN=your_bot_token_here
@@ -299,5 +299,6 @@ grep -A 2 "Error Summary" detection.log | tail -n 10
 **Version**: 2.0  
 **Last Updated**: 2024  
 **Status**: Production Ready
+
 
 For more information, visit the [project repository](your-repo-url).
