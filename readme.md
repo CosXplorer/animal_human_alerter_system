@@ -242,9 +242,6 @@ Contributions are welcome! Please:
 3. Add tests for new features
 4. Submit a pull request
 
-## 📄 License
-
-[Your chosen license - e.g., MIT]
 
 ## 🆘 Support
 
@@ -299,6 +296,3 @@ grep -A 2 "Error Summary" detection.log | tail -n 10
 **Version**: 2.0  
 **Last Updated**: 2024  
 **Status**: Production Ready
-
-
-For more information, visit the [project repository](your-repo-url).
